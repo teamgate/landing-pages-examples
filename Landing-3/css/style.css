@@ -1,0 +1,126 @@
+/* Base CSS */
+body {
+    color: #666666;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    background: #84c3f8
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #234976;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+h6 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.navbar-header {
+    display: block;
+    width: 100%;
+}
+.navbar-brand {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-brand > span {
+    color: #234976;
+}
+.text-primary {
+    color: #ff534f!important;
+}
+.navbar-nav>li a {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 12px 8px 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+.navbar-nav>li a:hover {
+    color: #234976;
+}
+.navbar-collapse.collapse {
+    justify-content: space-between;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse.show {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    text-align: center;
+}
+.navbar-toggle .icon-bar {
+    background: #ff534f;
+    margin: 0 0 3px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin: 0 8px 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}

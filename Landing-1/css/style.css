@@ -1,0 +1,295 @@
+/* Base CSS */
+body {
+    color: #666666;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #373e62;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+h6 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.navbar-header {
+    display: block;
+    width: 100%;
+}
+.navbar-brand {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-brand > span,
+.text-primary {
+    color: #2196F3!important;
+}
+.navbar-nav>li a {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 12px 8px 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+.navbar-nav>li a:hover {
+    color: #2196F3;
+}
+.navbar-collapse.collapse {
+    justify-content: space-between;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse.show {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    text-align: center;
+}
+.navbar-toggle .icon-bar {
+    background: #2196F3;
+    margin: 0 0 3px;
+    display: block;
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin: 0 8px 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+#features {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.feature-center {
+    text-align: center;
+    padding: 60px 30px 30px 30px;
+}
+
+.feature-center.dark {
+    background-color: #ebebeb;
+}
+
+.feature-center.light {
+    background-color: #f7f7f7;
+}
+
+.feature-center.dark:hover,
+.feature-center.light:hover {
+    background-color: #59b1f7;
+    -webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+.feature-center .feature-icon {
+    font-size: 22px;
+    color: #59b1f7;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    line-height: 65px;
+    border: 2px solid #59b1f7;
+    border-radius: 50%;
+    -webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+.feature-center:hover .feature-icon {
+    color: white;
+    border-color: white;
+}
+
+.feature-center.dark:hover h4, .feature-center.light:hover h4 {
+    color: white;
+    -webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+.feature-center.dark:hover p, .feature-center.light:hover p {
+    color: #ebebeb;
+    -webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+.feature-center .feature-icon {
+    margin-bottom: 35px;
+}
+
+.feature-center h4 {
+    margin-bottom: 10px;
+}
+
+#how {
+    background-image: url('../images/how-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f7f7;
+    padding: 90px 0;
+}
+
+.hiw {
+    text-align: center;
+    padding: 50px 30px 30px 90px;
+}
+
+.hiw.next-indicator:after {
+    color: #999;
+    content: "\f178";
+    font-family: FontAwesome;
+    display: block;
+    width: 33%;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.step-badge {
+    color: white;
+    background: #373e62;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 16px;
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    text-align: center;
+    z-index: 99;
+}
+
+.how-icon i {
+    color: #59b1f7;
+    background: transparent;
+    border: 2px solid #59b1f7;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.how-icon {
+    position: absolute;
+    top: 33px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px 0;
+    background: #272733;
+}
+footer p {
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hiw {
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    .how-icon {
+        position: relative;
+        float: none;
+        left: auto;
+        text-align: center;
+        margin-bottom: 15px;
+        top: 0;
+    }
+    .step-badge {
+        left: auto;
+        margin-left: -8px;
+    }
+    #features {
+        padding: 0;
+    }
+    .hiw.next-indicator:after {
+        width: 10px;
+        margin-left: -5px;
+        top: inherit;
+        content: "\f175";
+        right: inherit;
+        bottom: 0;
+        left: 50%;
+    }
+}

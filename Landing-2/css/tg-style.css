@@ -1,0 +1,121 @@
+.tg-wrapper {
+    height: 100%;
+}
+
+.tg-header-line {
+    height: calc(100% - 56px);
+}
+
+.tg-header-line .right-img {
+    margin-right: -15px;
+    max-width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tg-header-line > .container {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.tg-register-form {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 30px;
+    height: 670px;
+}
+.tg-register-form .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tg-register-form .heading h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    background: #009BD8;
+    color: #fff;
+}
+.vertical-align {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tg-register-form .input-group-addon {
+    align-items: inherit;
+    border-radius: 0;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #CBCBCB;
+    background: #f7f7f7;
+    border-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tg-register-form .form-control {
+    font-size: 14px;
+    border-radius: 0;
+    padding-left: 5px;
+    border-left: none;
+    color: #666666;
+    background: #f7f7f7;
+    border-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Hidden placeholder */
+.tg-register-form select.form-control option[disabled]:first-child {
+	display: none;
+}
+
+.tg-register-form .form-check-label {
+    margin-top: 18px;
+}
+
+.tg-register-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tg-wrapper .btn {
+    cursor: pointer;
+    border-radius: 0;
+    margin-top: 10px;
+    padding: 10px 17px;
+    font-size: 13px;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+.tg-wrapper .btn.btn-submit {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.tg-wrapper .btn-transparent {
+    border: 2px solid #fff;
+    padding: 10px 17px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tg-wrapper .btn-transparent:hover {
+    background: #fff;
+    color: #666666;
+}
+
+.tg-wrapper .btn .fa {
+    margin-right: 5px;
+}
+
+.mgt50 {
+    margin-top: 50px;
+}

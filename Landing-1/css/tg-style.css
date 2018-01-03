@@ -1,0 +1,161 @@
+.tg-wrapper {
+    position: relative;
+    background-image: url('../images/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 0;
+}
+.tg-wrapper::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.tg-header-line {
+    margin: 30px 0;
+}
+
+.tg-header-line .header-content-details h3 {
+    color: #fff;
+}
+
+.tg-header-line .header-content-details {
+    padding: 30px 15px;
+    color: #fff;
+}
+
+.tg-header-line .header-content-details p {
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.tg-register-form {
+    position: relative;
+    height: 520px;
+    padding: 35px;
+    background: #fff;
+    color: #373e62;
+}
+
+.tg-register-form .vertical-align {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.tg-register-form h3 {
+    color: #373e62;
+}
+
+.tg-register-form .log-text {
+    color: #666666;
+    font-size: 14px;
+}
+
+.tg-register-form .form-group {
+    margin-bottom: 30px;
+}
+
+.tg-register-form .input-group-addon {
+    align-items: inherit;
+    border-radius: 0;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #CBCBCB;
+    background: #f7f7f7;
+    border-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tg-register-form .input-group-addon .fa {
+    margin-top: 1px;
+}
+
+.tg-register-form .has-error .input-group-addon,
+.tg-register-form .has-error .form-control {
+    border-color: #d32c4d;
+}
+
+.tg-register-form .form-control {
+    font-size: 14px;
+    border-radius: 0;
+    padding-left: 5px;
+    border-left: none;
+    color: #666666;
+    background: #f7f7f7;
+    border-color: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tg-register-form .form-check-label {
+    margin-top: 18px;
+}
+
+.tg-register-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.tg-wrapper .btn {
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px 17px;
+    font-size: 13px;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+.tg-wrapper .btn.btn-submit {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.tg-wrapper .btn.btn-primary {
+    border-color: #2196F3;
+    background: #2196F3;
+}
+
+.tg-wrapper .btn.btn-primary:hover {
+    border-color: #0f73c4;
+    background: #0f73c4;
+}
+
+.tg-wrapper .btn-transparent {
+    border: 2px solid #fff;
+    padding: 10px 17px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tg-wrapper .btn-transparent:hover {
+    background: #fff;
+    color: #666666;
+}
+
+.tg-wrapper .btn .fa {
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+    .tg-header-line {
+        margin: 70px 0;
+    }
+    .tg-header-line .header-content-details {
+        padding: 110px 15px;
+    }
+}
