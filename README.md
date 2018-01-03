@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Landing Page Examples
 
-You can use the [editor on GitHub](https://github.com/teamgate/landing-pages-examples/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Use Landing Pages to generate sales leads. You can create and A/B test a number of landing pages without a help of web designers and IT specialists. More information about [Landing Pages](https://www.teamgate.com/features/landing-pages) using you can read on our webpage.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Technical Dependencies
 
-### Markdown
+- [PHP](http://www.php.net)
+- [PEST](https://github.com/pest-parser/pest)
+- [Teamgate API](http://docs.teamgate.com/v4/reference)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Steps to run locally
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Choose a landing page and clone them repository. Example: `git clone https://github.com/teamgate/landing-page-examples/landing-1.git  && cd landing*`
+2. Open PHP file `save.php` and enter authentication data:
+```php
+    private $_baseUrl = ''; // Your website URL
+    private $_apiKey = ''; // Located at yout Teamgate account -> Settings -> Additional features -> External Apps
+    private $_userToken = ''; // Located at yout Teamgate account -> My profile -> Integrations -> API access
 ```
+3. Browse to [http://localhost/landing-1](http://localhost/landing-1) on your machine.
+4. Volia!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Credits and Resources
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/teamgate/landing-pages-examples/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Bootstrap](http://getbootstrap.com)
+- [JQuery](http://jquery.com)
+- [Font Awesome](http://fontawesome.io/)
