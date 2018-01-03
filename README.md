@@ -10,7 +10,7 @@ Use Landing Pages to generate sales leads. You can create and A/B test a number 
 
 ### Steps to run locally
 
-1. Choose a landing page and clone them repository. Example: `git clone https://github.com/teamgate/landing-page-examples/landing-1.git  && cd landing*`
+1. Choose a landing page and clone them repository. Example: `git clone https://github.com/teamgate/landing-page-examples.git  && cd landing*`
 2. Open PHP file `save.php` and enter authentication data:
 ```php
     private $_baseUrl = ''; // Your website URL
