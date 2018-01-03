@@ -1,6 +1,6 @@
 ## Landing Page Examples
 
-[Landing Pages](https://www.teamgate.com/features/landing-pages)
+Use Landing Pages to generate sales leads. You can create and A/B test a number of landing pages without a help of web designers and IT specialists. More information about [Landing Pages](https://www.teamgate.com/features/landing-pages) using you can read on our webpage.
 
 ### Technical Dependencies
 
