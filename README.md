@@ -14,8 +14,8 @@
 2. Open the file `save.php` and enter authentication data:
 ```php
     private $_baseUrl = ''; // Your website URL
-    private $_apiKey = ''; // Located at yout Teamgate account -> Settings -> Additional features -> External Apps
-    private $_userToken = ''; // Located at yout Teamgate account -> My profile -> Integrations -> API access
+    private $_apiKey = ''; // Located at your Teamgate account -> Settings -> Additional features -> External Apps
+    private $_userToken = ''; // Located at your Teamgate account -> My profile -> Integrations -> API access
 ```
 3. Save changes.
 4. Browse to [http://localhost/landing-pages-examples/landing-1](http://localhost/landing-pages-examples/landing-1) on your machine.
