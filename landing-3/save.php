@@ -116,6 +116,7 @@ class Request {
         $response = $this->_post(
             'v4/deals', array(
                 'buyerId' => $this->_buyerId,
+                'tags' => $this->_tags
             )
         );
 
