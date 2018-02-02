@@ -10,7 +10,7 @@
 
 ### Quick start to run locally
 
-1. Clone the repository: `git clone https://github.com/teamgate/landing-pages-examples.git  && cd landing*`
+1. Clone the repository: `git clone https://github.com/teamgate/landing-pages-examples.git  && cd landing*`.
 2. Open the file `save.php` and enter authentication data:
 ```php
     private $_baseUrl = ''; // Your website URL
