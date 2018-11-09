@@ -23,6 +23,6 @@
 
 ### Credits and Resources
 
-- [9 Emotional Triggers You Must Implement In Your Business To Grow Sales](https://blog.teamgate.com/9-emotional-triggers-you-must-implement-to-grow-sales/)
-- [The 7 Laws of Creating Content Upgrades People Beg For](https://blog.teamgate.com/7-laws-of-creating-content-upgrades/)
-- [Why Leads Capturing Compares to Fishing?](https://blog.teamgate.com/leads-capturing-and-fishing/)
+- [9 Emotional Triggers You Must Implement In Your Business To Grow Sales](https://www.teamgate.com/blog/9-emotional-triggers-you-must-implement-to-grow-sales/)
+- [The 7 Laws of Creating Content Upgrades People Beg For](https://www.teamgate.com/blog/7-laws-of-creating-content-upgrades/)
+- [Why Leads Capturing Compares to Fishing?](https://www.teamgate.com/blog/leads-capturing-and-fishing/ )
